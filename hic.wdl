@@ -452,7 +452,7 @@ task chimeric_sam_specific {
 
     runtime {
         cpu : "~{num_cpus}"
-        disks: "local-disk 1000 HDD"
+        disks: "local-disk 2000 HDD"
         memory: "16 GB"
     }
 }
@@ -489,7 +489,7 @@ task chimeric_sam_nonspecific {
 
     runtime {
         cpu : "~{num_cpus}"
-        disks: "local-disk ~{if(single_ended) then 6000 else 1000} HDD"
+        disks: "local-disk ~{if(single_ended) then 6000 else 2000} HDD"
         memory: "16 GB"
     }
 }
