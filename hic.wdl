@@ -545,7 +545,7 @@ task dedup {
 
     runtime {
         cpu : "~{num_cpus}"
-        disks: "local-disk 5000 HDD"
+        disks: "local-disk 7000 HDD"
         memory: "32 GB"
     }
 }
