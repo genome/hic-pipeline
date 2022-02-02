@@ -43,7 +43,8 @@ workflow megamap {
     }
 
     call hic.create_accessibility_track as accessibility { input:
-        pre = bam_to_pre.pre
+        pre = bam_to_pre.pre,
+        chrom_sizes = chrom_sizes,
     }
 
     call merge_stats_from_hic_files { input:
