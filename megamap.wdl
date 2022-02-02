@@ -4,9 +4,9 @@ import "./hic.wdl"
 
 workflow megamap {
     meta {
-        version: "1.10.0"
-        caper_docker: "encodedcc/hic-pipeline:1.10.0"
-        caper_singularity: "docker://encodedcc/hic-pipeline:1.10.0"
+        version: "1.11.0"
+        caper_docker: "encodedcc/hic-pipeline:1.11.0"
+        caper_singularity: "docker://encodedcc/hic-pipeline:1.11.0"
     }
 
     input {
@@ -19,8 +19,8 @@ workflow megamap {
         Boolean intact = true
         File? phased_vcf
         Int? create_hic_num_cpus
-        String delta_docker = "encodedcc/hic-pipeline:1.10.0_delta"
-        String hiccups_docker = "encodedcc/hic-pipeline:1.10.0_hiccups"
+        String delta_docker = "encodedcc/hic-pipeline:1.11.0_delta"
+        String hiccups_docker = "encodedcc/hic-pipeline:1.11.0_hiccups"
     }
 
     String delta_models_path = if intact then "ultimate-models" else "beta-models"
