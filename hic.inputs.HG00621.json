@@ -1,0 +1,50 @@
+{
+  "hic.assembly_name": "HG00621",
+  "hic.reference_index": "/storage1/fs1/hprc/Active/shared/references/GRCh38.tgz",
+  "hic.chrsz": "/storage1/fs1/hprc/Active/shared/references/GRCh38/GRCh38.fasta.chr-sz.tsv",
+  "hic.restriction_enzymes": [
+    "none"
+  ],
+  "hic.no_call_loops": "false",
+  "hic.no_call_tads": "false",
+  "hic.no_delta": "false",
+  "hic.no_slice": "false",
+  "hic.fastq": [
+    [
+      {
+        "read_1": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-1_S15_L001_R1_001.fastq.gz",
+        "read_2": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-1_S15_L001_R2_001.fastq.gz"
+      },
+      {
+        "read_1": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-1_S15_L002_R1_001.fastq.gz",
+        "read_2": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-1_S15_L002_R2_001.fastq.gz"
+      },
+      {
+        "read_1": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-1_S15_L003_R1_001.fastq.gz",
+        "read_2": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-1_S15_L003_R2_001.fastq.gz"
+      },
+      {
+        "read_1": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-1_S15_L004_R1_001.fastq.gz",
+        "read_2": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-1_S15_L004_R2_001.fastq.gz"
+      }
+    ],
+    [
+      {
+        "read_1": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-2_S19_L001_R1_001.fastq.gz",
+        "read_2": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-2_S19_L001_R2_001.fastq.gz"
+      },
+      {
+        "read_1": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-2_S19_L002_R1_001.fastq.gz",
+        "read_2": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-2_S19_L002_R2_001.fastq.gz"
+      },
+      {
+        "read_1": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-2_S19_L003_R1_001.fastq.gz",
+        "read_2": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-2_S19_L003_R2_001.fastq.gz"
+      },
+      {
+        "read_1": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-2_S19_L004_R1_001.fastq.gz",
+        "read_2": "/storage1/fs1/hprc/Active/shared/HPRC_Annotation_PhaseI/HG00621/HiC/NWM235b-2_S19_L004_R2_001.fastq.gz"
+      }
+    ]
+  ]
+}
